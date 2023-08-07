@@ -1,13 +1,3 @@
 #!/bin/bash
-
-# Get the Python file name from the environment variable
-python_file="$PYFILE"
-
-# Check if the Python file exists
-if [ -f "$python_file" ]; then
-	# Run the Python script
-	python3 "$python_file"
-else
-	echo "Error: Python file '$python_file' not found."
-fi
-
+# This is a shell script that runs a python script
+python3 $PYFILE
