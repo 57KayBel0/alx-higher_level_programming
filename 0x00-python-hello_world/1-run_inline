@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Get the Python code from the environment variable
-python_code="$PYCODE"
-
-# Run the Python code using Python 3
-python3 -c "$python_code"
-
+python3 -c "$PYCODE"
