@@ -5,9 +5,9 @@ python_file="$PYFILE"
 
 # Check if the Python file exists
 if [ -f "$python_file" ]; then
-    # Run the Python script
-    python3 "$python_file"
+	# Run the Python script
+	python3 "$python_file"
 else
-    echo "Error: Python file '$python_file' not found."
+	echo "Error: Python file '$python_file' not found."
 fi
 
