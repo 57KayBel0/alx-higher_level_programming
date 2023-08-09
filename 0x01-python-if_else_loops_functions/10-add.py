@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def add(a, b):
     # Check if the inputs are integers
     if isinstance(a, int) and isinstance(b, int):
