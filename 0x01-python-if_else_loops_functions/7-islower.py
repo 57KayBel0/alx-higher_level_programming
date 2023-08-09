@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def islower(c):
     # Check if the input is a single character
     if len(c) != 1:
