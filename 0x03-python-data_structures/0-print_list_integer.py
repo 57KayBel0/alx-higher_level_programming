@@ -5,4 +5,3 @@ def print_list_integer(my_list=[]):
     for item in my_list:
         # print each item using str.format()
         print("{:d}".format(item))
-
