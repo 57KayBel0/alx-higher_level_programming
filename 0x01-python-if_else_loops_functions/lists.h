@@ -1,3 +1,6 @@
+#ifndef LISTS_H
+#define LISTS_H
+
 def islower(c):
 def uppercase(str):
 def print_last_digit(number):
@@ -6,8 +9,8 @@ def pow(a, b):
 def fizzbuzz():
 def remove_char_at(str, n):
 def magic_calculation(a, b, c):
-#ifndef LISTS_H
-#define LISTS_H
+#include <stddef.h>
+#include <stdio.h>
 
 /**
  * struct listint_s - singly linked list
