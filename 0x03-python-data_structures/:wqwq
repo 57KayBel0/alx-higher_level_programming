@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+def delete_at(my_list=[], idx=0):
+    # Check if idx is valid
+    if 0 <= idx < len(my_list):
+        # Loop through the list and copy all elements except the one at idx
+        new_list = []
+        for i in range(len(my_list)):
+            if i != idx:
+                new_list.append(my_list[i])
+        # Return the new list
+        return new_list
+    # If idx is invalid, return the original list
+    else:
+        return my_list
