@@ -3,7 +3,7 @@ class Rectangle:
     """Rectangle class with width and height attributes"""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance with optional width and height."""
+        """Initialize a new Rectangle instance with width and height."""
         self.width = width
         self.height = height
 
@@ -46,7 +46,7 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Return a string representation of the rectangle using # characters."""
+        """Return a string representation of the rectangle using # char."""
         if self.__width == 0 or self.__height == 0:
             return ""
         rect_str = ""
@@ -57,5 +57,5 @@ class Rectangle:
         return rect_str
 
     def __repr__(self):
-        """Return a string representation of the rectangle for recreation using eval()."""
+        """Return a string representation for recreation using eval()."""
         return f"Rectangle({self.__width}, {self.__height})"
